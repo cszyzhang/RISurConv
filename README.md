@@ -4,12 +4,12 @@ European Conference on Computer Vision (ECCV) 2024
 
 [Zhiyuan Zhang](https://zhiyuanzhang.net/), [Licheng Yang], [Zhiyu Xiang].
 
-[Project Page](https://zhiyuanzhang.net/projects/riconv) | [arXiv](https://arxiv.org/pdf/2202.13094.pdf)
+[PDF](https://arxiv.org/pdf/2202.13094.pdf)
 
 If you found this paper useful in your research, please cite:
 ```
 @inproceedings{zhang2024risurconv,
-  title={Global Context Aware Convolutions for 3D Point Cloud Understanding},
+  title={RISurConv: Rotation Invariant Surface Attention-Augmented Convolutions for 3D Point Cloud Classification and Segmentation},
   author={Zhang, Zhiyuan and Yang, Licheng and Xiang, Zhiyu},
   booktitle={2024 European Conference on Computer Vision (ECCV)},
   pages={1--14},
@@ -30,6 +30,7 @@ cd ..
 ## Usage
 ### Pretrained Models
 We provide pretrained models for all the experiments in this work. Please download the zip file [**HERE**](https://1drv.ms/u/c/1cd2dc535b9bd761/EexVLK4B1hNHs-7VLxIPNzUBAwJuvvnV5esXl7iCRuhbNQ?e=1poaOn). The zip file contains the pretrained models as well as the training log files. Unzip the log fold under the project folder. Make sure that folder architectures as as follows:
+```
 │data/
 ├── FG3D
 ├── modelnet40_preprocessed/
@@ -52,7 +53,8 @@ We provide pretrained models for all the experiments in this work. Please downlo
 ├── train_classification_modelnet40.py
 ├── train_classification_scanobj.py
 ├── train_partseg.py
-	
+```
+
 ### Classification
 We perform classification on FG3D, ModelNet40 and ScanObjectNN respectively.
 #### FG3D
