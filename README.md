@@ -27,7 +27,7 @@ cd ..
 
 ## Usage
 ### Pretrained Models
-We provide pretrained models for all the experiments in this work. Please download the zip file [**HERE**](https://1drv.ms/u/c/1cd2dc535b9bd761/EexVLK4B1hNHs-7VLxIPNzUBAwJuvvnV5esXl7iCRuhbNQ?e=1poaOn). The zip file contains the pretrained models as well as the training log files. Unzip the log fold under the project folder. Make sure that folder architectures as as follows:
+We provide pretrained models for all the experiments in this work. Please download the zip file [**HERE**](https://1drv.ms/u/c/1cd2dc535b9bd761/EexVLK4B1hNHs-7VLxIPNzUBAwJuvvnV5esXl7iCRuhbNQ?e=1poaOn). The zip file contains the pretrained models as well as the training log files. Unzip the log fold under the project folder. Make sure that folder architectures are as follows:
 ```
 │data/
 ├── FG3D
