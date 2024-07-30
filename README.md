@@ -1,4 +1,4 @@
-# RIConv++: Effective Rotation Invariant Convolutions for 3D Point Clouds Deep Learning
+# RISurConv: Rotation Invariant Surface Attention-Augmented Convolutions for 3D Point Cloud Classification and Segmentation
 
 European Conference on Computer Vision (ECCV) 2024
 
