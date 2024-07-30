@@ -63,7 +63,7 @@ There are 3 categories in FG3D dataset: Airplane, Chair, Car. To train a RISurCo
 ```
 python3 train_classification_FG3D.py --category 'airplane' --epoch 300 --decay_rate 1e-2
 ```
-For testing, you can use your trained model by specifying `--log_dir` or use our **pretrained model** [135MB](log/classification_FG3D/airplane/pretrained) directly (put the best_model.pth into `log/classification_FG3D/airplane/pretrained/checkpoints/`):
+For testing, you can use your trained model by specifying `--log_dir` or use our **pretrained model** directly (make sure the pretrained best_model.pth is in `log/classification_FG3D/airplane/pretrained/checkpoints/`):
 ```
 python3 test_classification_FG3D.py --category 'airplane' --log_dir 'pretrained'
 ```
@@ -72,7 +72,7 @@ To train a RISurConv model to classify object in the **chair** category:
 ```
 python3 train_classification_FG3D.py --category 'chair'
 ```
-For testing, you can use your trained model by specifying `--log_dir` or use our **pretrained model** [135MB](log/classification_FG3D/chair/pretrained) directly (put the best_model.pth into `log/classification_FG3D/chair/pretrained/checkpoints/`):
+For testing, you can use your trained model by specifying `--log_dir` or use our **pretrained model** directly (make sure the pretrained best_model.pth is in `log/classification_FG3D/chair/pretrained/checkpoints/`):
 ```
 python3 test_classification_FG3D.py --category 'chair' --log_dir 'pretrained'
 ```
@@ -81,7 +81,7 @@ To train a RISurConv model to classify object in the **car** category:
 ```
 python3 train_classification_FG3D.py --category 'car'
 ```
-For testing, you can use your trained model by specifying `--log_dir` or use our **pretrained model** [135MB](log/classification_FG3D/car/pretrained) directly (put the best_model.pth into `log/classification_FG3D/car/pretrained/checkpoints/`):
+For testing, you can use your trained model by specifying `--log_dir` or use our **pretrained model** directly (make sure the pretrained best_model.pth is in `log/classification_FG3D/car/pretrained/checkpoints/`):
 ```
 python3 test_classification_FG3D.py --category 'car' --log_dir 'pretrained'
 ```
@@ -94,7 +94,7 @@ To train a RIConv++ model to classify shapes in the ModelNet40 dataset:
 ```
 python3 train_classification_modelnet40.py
 ```
-For testing, you can use your trained model by specifying `--log_dir` or use our **pretrained model** [135MB](log/classification_modelnet40/pretrained) directly (put the best_model.pth into `log/classification_modelnet40/pretrained/checkpoints/`):
+For testing, you can use your trained model by specifying `--log_dir` or use our **pretrained model** directly (make sure the pretrained best_model.pth is in `log/classification_modelnet40/pretrained/checkpoints/`):
 ```
 python3 test_classification_modelnet40.py --log_dir 'pretrained'
 ```
@@ -105,7 +105,7 @@ Training on the hardest variant **PB_T50_RS**:
 ```
 python3 train_classification_scanobj.py --data_type 'hardest'
 ```
-For testing, you can use your trained model by specifying `--log_dir` or use our **pretrained model** [135MB](log/classification_scanobj/pretrained/hardest) directly (put the best_model.pth into `log/classification_scanobj/pretrained/checkpoints/`):
+For testing, you can use your trained model by specifying `--log_dir` or use our **pretrained model** directly (make sure the pretrained best_model.pth is in `log/classification_scanobj/pretrained/checkpoints/`):
 ```
 python3 test_classification_scanobj.py --data_type 'hardest' --log_dir 'pretrained'
 ```
@@ -120,7 +120,7 @@ Training:
 ```
 python3 train_partseg.py
 ```
-For testing, you can use your trained model by specifying `--log_dir` or use our **pretrained model** [46.8MB](log/part_seg/pretrained) directly (put the best_model.pth into `log/partseg/pretrained/checkpoints/`):
+For testing, you can use your trained model by specifying `--log_dir` or use our **pretrained model** directly (make sure the pretrained best_model.pth is in `log/partseg/pretrained/checkpoints/`):
 ```
 python3 test_partseg.py --log_dir 'pretrained'
 ```
