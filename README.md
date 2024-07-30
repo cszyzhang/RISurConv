@@ -2,7 +2,7 @@
 
 European Conference on Computer Vision (ECCV) 2024  |  [PDF](https://arxiv.org/pdf/2202.13094.pdf)
 
-[Zhiyuan Zhang](https://zhiyuanzhang.net/), [Licheng Yang], [Zhiyu Xiang].
+[Zhiyuan Zhang](https://zhiyuanzhang.net/), Licheng Yang, Zhiyu Xiang.
 
 If you found this paper useful in your research, please cite:
 ```
