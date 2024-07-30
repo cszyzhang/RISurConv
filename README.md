@@ -90,7 +90,7 @@ python3 test_classification_FG3D.py --category 'car' --log_dir 'pretrained'
 
 Download alignment **ModelNet** [here](https://shapenet.cs.stanford.edu/media/modelnet40_normal_resampled.zip) and save in `../data/modelnet40_normal_resampled/`. Follow the instructions of [PointNet++(Pytorch)](https://github.com/yanx27/Pointnet_Pointnet2_pytorch) to prepare the data. Specifically, please use `--process_data` to preprocess the data, and move the processed data to `../data/modelnet40_preprocessed/`. Alternatively, you can also download the pre-processd data [here](https://1drv.ms/u/s!AmHXm1tT3NIcnnBiRlVxATXtOhe9?e=oynmh2) and save it in `../data/modelnet40_preprocessed/`. (**Note**: the `data/` folder is outside the project folder)
 
-To train a RIConv++ model to classify shapes in the ModelNet40 dataset:
+To train a RISurConv model to classify shapes in the ModelNet40 dataset:
 ```
 python3 train_classification_modelnet40.py
 ```
