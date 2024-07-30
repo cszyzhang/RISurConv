@@ -67,7 +67,7 @@ def main(args):
     log_string('PARAMETER ...')
     log_string(args)
 
-    root = '../../data/shapenetcore_partanno_segmentation_benchmark_v0_normal/'
+    root = '../data/shapenetcore_partanno_segmentation_benchmark_v0_normal/'
     TEST_DATASET = PartNormalDataset(root=root, npoints=args.num_point, split='test', normal_channel=args.normal)
     testDataLoader = torch.utils.data.DataLoader(TEST_DATASET, batch_size=args.batch_size, shuffle=False, num_workers=2)
     log_string("The number of test data is: %d" % len(TEST_DATASET))

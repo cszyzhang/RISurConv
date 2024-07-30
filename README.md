@@ -1,10 +1,8 @@
 # RISurConv: Rotation Invariant Surface Attention-Augmented Convolutions for 3D Point Cloud Classification and Segmentation
 
-European Conference on Computer Vision (ECCV) 2024
+European Conference on Computer Vision (ECCV) 2024  |  [PDF](https://arxiv.org/pdf/2202.13094.pdf)
 
 [Zhiyuan Zhang](https://zhiyuanzhang.net/), [Licheng Yang], [Zhiyu Xiang].
-
-[PDF](https://arxiv.org/pdf/2202.13094.pdf)
 
 If you found this paper useful in your research, please cite:
 ```

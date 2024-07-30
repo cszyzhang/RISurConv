@@ -81,9 +81,9 @@ def main(args):
 
     '''DATA LOADING'''
     log_string('Load dataset ...')
-    data_path = '../../data/FG3D/' # original data
+    data_path = '../data/FG3D/' # original data
     if args.process_data:
-        data_path = '../../data/FG3D/' # preprocessed data
+        data_path = '../data/FG3D/' # preprocessed data
     
     
     test_dataset = FG3D_DataLoader(root=data_path, args=args, split='test', process_data=args.process_data)

@@ -83,9 +83,9 @@ def main(args):
     '''DATA LOADING'''
     log_string('Load dataset ...')
     if args.data_type == 'OBJ_NOBG':
-        data_path = '../../data/scanobjectnn/main_split_nobg/'
+        data_path = '../data/scanobjectnn/main_split_nobg/'
     elif args.data_type == 'hardest' or 'OBJ_BG': 
-        data_path = '../../data/scanobjectnn/main_split/'
+        data_path = '../data/scanobjectnn/main_split/'
     else:
         raise NotImplementedError()
     test_dataset = ScanObjectNN(root=data_path, args=args, split='test')

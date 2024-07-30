@@ -81,9 +81,9 @@ def main(args):
 
     '''DATA LOADING'''
     log_string('Load dataset ...')
-    data_path = '../../data/modelnet40_normal_resampled/' # original data
+    data_path = '../data/modelnet40_normal_resampled/' # original data
     if args.process_data:
-        data_path = '../../data/modelnet40_preprocessed/' # preprocessed data
+        data_path = '../data/modelnet40_preprocessed/' # preprocessed data
     test_dataset = ModelNetDataLoader(root=data_path, args=args, split='test', process_data=args.process_data)
     testDataLoader = torch.utils.data.DataLoader(test_dataset, batch_size=args.batch_size, shuffle=False, num_workers=10)
 
